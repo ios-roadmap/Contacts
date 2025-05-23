@@ -6,23 +6,13 @@
 //
 
 import SwiftUI
-import IRDashboard
+import IROnboarding
 
 struct ContentView: View {
+    @State private var onboarding: OnboardingTheme = .welcomeTour
+    
     var body: some View {
-        NavigationStack {
-            VStack(spacing: 24) {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-
-                Text("Contacts")
-
-                NavigationLink("Dashboard", destination: DashboardView())
-                
-            }
-            .padding()
-        }
+        onboarding.view
     }
 }
 

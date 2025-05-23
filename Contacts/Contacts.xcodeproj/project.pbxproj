@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64C4FF972DC67A0A0014529B /* IRDashboard in Frameworks */ = {isa = PBXBuildFile; productRef = 64C4FF962DC67A0A0014529B /* IRDashboard */; };
+		64E22BBD2DE092CD004BAC54 /* ContactsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 64E22BBC2DE092CD004BAC54 /* ContactsLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +31,7 @@
 		6463FF1F2DC63E4A00B45C0C /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6463FF302DC63E4B00B45C0C /* ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6463FF3A2DC63E4B00B45C0C /* ContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E22BBB2DE09261004BAC54 /* ContactsLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ContactsLibrary; path = ../ContactsLibrary; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -46,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64C4FF972DC67A0A0014529B /* IRDashboard in Frameworks */,
+				64E22BBD2DE092CD004BAC54 /* ContactsLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +71,7 @@
 		6463FF162DC63E4A00B45C0C = {
 			isa = PBXGroup;
 			children = (
+				64E22BBB2DE09261004BAC54 /* ContactsLibrary */,
 				6463FF212DC63E4A00B45C0C /* Contacts */,
 				64C4FF952DC67A0A0014529B /* Frameworks */,
 				6463FF202DC63E4A00B45C0C /* Products */,
@@ -113,7 +115,7 @@
 			);
 			name = Contacts;
 			packageProductDependencies = (
-				64C4FF962DC67A0A0014529B /* IRDashboard */,
+				64E22BBC2DE092CD004BAC54 /* ContactsLibrary */,
 			);
 			productName = Contacts;
 			productReference = 6463FF1F2DC63E4A00B45C0C /* Contacts.app */;
@@ -192,7 +194,6 @@
 			mainGroup = 6463FF162DC63E4A00B45C0C;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				64C4FF942DC678CC0014529B /* XCLocalSwiftPackageReference "../../../Features/IRDashboard" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6463FF202DC63E4A00B45C0C /* Products */;
@@ -591,18 +592,10 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		64C4FF942DC678CC0014529B /* XCLocalSwiftPackageReference "../../../Features/IRDashboard" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../../Features/IRDashboard;
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		64C4FF962DC67A0A0014529B /* IRDashboard */ = {
+		64E22BBC2DE092CD004BAC54 /* ContactsLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 64C4FF942DC678CC0014529B /* XCLocalSwiftPackageReference "../../../Features/IRDashboard" */;
-			productName = IRDashboard;
+			productName = ContactsLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
